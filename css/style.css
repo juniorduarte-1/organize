@@ -32,6 +32,7 @@ img{
 
 .intro{
     padding: 20px 0;
+    background-color: #141414;
 }
 
 
@@ -39,6 +40,7 @@ img{
     display: flex;
     justify-content: center;
     padding: 40px;
+    background-color: #141414;
 }
 
 .first_title{
@@ -85,7 +87,7 @@ img{
 
 .primary{
     padding: 60px 0;
-    background-color: #fff;
+    background-color: #ffffff;
 
 }
 .primary img{
@@ -134,7 +136,9 @@ img{
     top: 7px;
     left: -20px;
 }
-
+.secondy{
+    background-color: #141414;
+}
 .secondy h3{
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
@@ -275,6 +279,9 @@ img{
 }
 
 @media (max-width: 620px){
+    .footer{
+        padding: 20px 20px;
+    }
     .content{
         display: block;
     }
@@ -287,7 +294,7 @@ img{
 @media (max-width: 560px){
     
     .first_title{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     
     .title_secundary{
@@ -298,4 +305,33 @@ img{
         padding: 10px 20px;
         font-size: 1rem;
     }
+    .subtitle{
+        font-size: 2rem;
+        margin-left: 14px;
+    }
+    .list_primary{
+        padding: 20px;
+    }
+    .list_primary li{
+        font-size: 1rem;
+    }
+    .list_primary li::before{
+        top: 5px;
+    }
+    .list_img{
+        max-width: 250px;
+    }
+}
+
+
+@media (max-width: 460px){
+    .first_title{
+        font-size: 2rem;
+    }
+
+    .logo{
+        max-width: 200px;
+    }
+
+    
 }
